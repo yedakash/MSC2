@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Registration Form</title>
+<script src="assignment2.js"></script>
+</head>
+<body>  
+    <table border="1" align="center">
+    <tr><td>
+    <form action="#" name="empform" onsubmit="return(validate());">
+        <font size="4"><b>
+    
+        <h1>
+            Employee Registration Form
+       </h1>
+       <pre>
+     <ul>
+     <li>First Name:    <input type="text" name="fname" ></li>
+     <li>Last Name:     <input type="text" name="lname"></li>
+     <li>DOB:           <input type="text" name="dob">format: DD-MM-YYYY</li>
+     <li>Joining Date:  <input type="text" name="jdate">format:DD-MM-YYYY</li>
+     <li>Salary:        <input type="text" name="salary"> </li>
+     <li>Job Location:       <select name="Location">
+         <option value="-1" selected>section location</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Pune</option>
+        <option value="Bangalore">Mysore</option>
+        <option value="Chennai">Chandigarh</option>
+         
+        </select></li>
+       <li> Designation:  <select name="designation">
+           <option value="-1" selected>select Designation</option>
+            <option value="Systems Engineer">Systems Engineer</option>
+            <option value="Senior Systems Engineer">Senior Systems Engineer</option>
+            <option value="Technology Analyst">Technology Analyst</option>
+            <option value="Technology Lead">Technology Lead</option>
+            <option value="Project Manager">Project Manager</option>
+         </select> </li>   
+        <li><input type="submit" value ="Submit">  <input type="reset" value ="Reset"></li>
+    </ul>
+    </pre>
+</b></font>
+    
+
+</td></tr>
+    </table>           
+</body>
+</html>
